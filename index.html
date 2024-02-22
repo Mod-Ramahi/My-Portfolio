@@ -20,41 +20,55 @@
         <span class="menu-btn">Contact me</span>
     </div> -->
     <div class="section-page-header">
+        <div class="navigate" id="sideNavigator">
+            <span class="menu-btn" id="aboutNav">About Me</span>
+            <span class="menu-btn" id="skillsNav">skills</span>
+            <span class="menu-btn" id="projectsNav">Projects</span>            
+            <span class="menu-btn" id="experienceNav">Experiences</span>
+            <span class="menu-btn" id="contactNav">Contact me</span>
+        </div>
         <div class="main-info">
             <div class="text-main-info">
                 <span class="name-span">Mohammad Al-Ramahi</span>
                 <span class="overview head-span">
-                    Full stack web developer with focus on MERN stack (MongoDb, Express, React.js, Node.js)
+                    Full stack web developer with experience in MERN stack (MongoDb, Express, React.js, Node.js)
                 </span>
                 <div class="info-links">
                     <a href="https://www.linkedin.com/in/mohammad-alramahi/" target="_blank">
-                        <i class="fab fa-linkedin fa-xl"></i>
+                        <i class="fab fa-linkedin fa-xl" style="color: black;"></i>
                     </a>
                     <a href="https://github.com/Mod-Ramahi?tab=repositories" target="_blank">
-                        <i class="fab fa-github fa-xl"></i>
+                        <i class="fab fa-github fa-xl" style="color: black;"></i>
                     </a>
-                    
+
                 </div>
             </div>
             <img class="image-profile" src="./images/profile-img.jpg" alt="profile-picture" />
         </div>
     </div>
-    <div class="section-about-me">
-        <span class="head-span color-span underline">About me:</span>
-        <span class="text-span txt1">Hi, I'm Mohammad, a web developer with a background in IT support. with experience
-            in the MERN stack, I focus on developing full-stack web apps.</span>
-        <span class="text-span txt2">My journey reflects adaptability, continuous learning, and passion for problem
-            solving.</span>
-        <span class="text-span txt3">Let's connect and discuss how my skills can contribute to your projects.</span>
+    <div class="section-about-me" id="about-view">
+        <div class="about-container">
+            <span class="color-span underline about-section">About me:</span>
+            <span class="text-span txt1">Hello, I'm Mohammad, a dedicated full-stack web developer with a background in
+                IT support.</span>
+            <span class="text-span txt1">While my expertise primarily lies in the MERN stack, I am deeply committed to
+                expanding my skills and exploring new technologies.</span>
+            <span class="text-span txt1">With a robust background in both front-end and back-end development, I
+                specialize in creating dynamic web applications that seamlessly integrate intuitive user interfaces with
+                efficient backend functionality.</span>
+            <span class="text-span txt1">My journey is fueled by adaptability, continuous learning, and a passion for
+                problem-solving.
+                Let's connect and discuss how my skills can contribute to meeting your expectations.</span>
+        </div>
     </div>
     <div class="section-my-skills" id="mySkills">
         <div class="skills-container">
-            <span class="head-span color-span2 underline">Main skills:</span>
+            <span class="head-span underline about-section">Main skills:</span>
             <div class="skill">
                 <span class="skill-span color-span2">* HTML - HTML 5</span>
                 <img src="./skillsIcons/html-5.png" alt="" class="skill-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 95%;">
+                    <div class="bar-fill" style="width: 97%;">
 
                     </div>
                 </div>
@@ -63,7 +77,7 @@
                 <span class="skill-span">* CSS - SASS</span>
                 <img src="./skillsIcons/css.png" alt="" class="skill-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 92%;">
+                    <div class="bar-fill" style="width: 93%;">
 
                     </div>
                 </div>
@@ -72,16 +86,44 @@
                 <span class="skill-span">* JavaScript - ES6+</span>
                 <img src="./skillsIcons/js.png" alt="" class="skill-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 85%;">
+                    <div class="bar-fill" style="width: 90%;">
 
                     </div>
                 </div>
             </div>
             <div class="skill">
+                <span class="skill-span ">* PHP</span>
+                <img src="./skillsIcons/php.png" alt="" class="skill-icon black-icon" />
+                <div class="bar">
+                    <div class="bar-fill" style="width: 55%;">
+
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-span">* TypeScript</span>
+                <img src="./skillsIcons/typescript.png" alt="" class="skill-icon" />
+                <div class="bar">
+                    <div class="bar-fill" style="width: 50%;">
+
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-span ">* C#</span>
+                <img src="./skillsIcons/csharp.png" alt="" class="skill-icon black-icon" />
+                <div class="bar">
+                    <div class="bar-fill" style="width: 40%;">
+
+                    </div>
+                </div>
+            </div>
+            <hr class="sec-hr" />
+            <div class="skill">
                 <span class="skill-span">* Bootstrap</span>
                 <img src="./skillsIcons/bootstrap.png" alt="" class="skill-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 85%;">
+                    <div class="bar-fill" style="width: 90%;">
 
                     </div>
                 </div>
@@ -90,7 +132,7 @@
                 <span class="skill-span">* React.js</span>
                 <img src="./skillsIcons/react.png" alt="" class="skill-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 82%;">
+                    <div class="bar-fill" style="width: 90%;">
 
                     </div>
                 </div>
@@ -105,14 +147,33 @@
                 </div>
             </div>
             <div class="skill">
-                <span class="skill-span">* Express.js</span>
-                <img src="./skillsIcons/example.png" alt="" class="skill-icon" />
+                <span class="skill-span ">* Express.js</span>
+                <img src="./skillsIcons/example.png" alt="" class="skill-icon black-icon" />
                 <div class="bar">
                     <div class="bar-fill" style="width: 75%;">
 
                     </div>
                 </div>
             </div>
+            <div class="skill">
+                <span class="skill-span ">* React native</span>
+                <img src="./skillsIcons/reactn.png" alt="" class="skill-icon black-icon" />
+                <div class="bar">
+                    <div class="bar-fill" style="width: 50%;">
+
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-span ">* Angular</span>
+                <img src="./skillsIcons/angular.png" alt="" class="skill-icon black-icon" />
+                <div class="bar">
+                    <div class="bar-fill" style="width: 40%;">
+
+                    </div>
+                </div>
+            </div>
+            <hr class="sec-hr" />
             <div class="skill">
                 <span class="skill-span">* MongoDb - NoSQL</span>
                 <img src="./skillsIcons/database-storage.png" alt="" class="skill-icon" />
@@ -123,17 +184,18 @@
                 </div>
             </div>
             <div class="skill">
-                <span class="skill-span">* SQL</span>
+                <span class="skill-span">* RDBMS -SQL & MySQL</span>
                 <img src="./skillsIcons/database-table.png" alt="" class="skill-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 70%;">
+                    <div class="bar-fill" style="width: 60%;">
 
                     </div>
                 </div>
             </div>
+            <hr class="sec-hr" />
             <div class="skill">
                 <span class="skill-span">* AWS S3</span>
-                <img src="./skillsIcons/aws.png" alt="" class="skill-icon" />
+                <img src="./skillsIcons/aws.png" alt="" class="skill-icon black-icon" />
                 <div class="bar">
                     <div class="bar-fill" style="width: 65%;">
 
@@ -149,11 +211,12 @@
                     </div>
                 </div>
             </div>
+            <hr class="sec-hr" />
             <div class="skill">
                 <span class="skill-span">* Git/Github</span>
-                <img src="./skillsIcons/github-icon.png" alt="" class="skill-icon" />
+                <img src="./skillsIcons/github-icon.png" alt="" class="skill-icon black-icon" />
                 <div class="bar">
-                    <div class="bar-fill" style="width: 70%;">
+                    <div class="bar-fill" style="width: 75%;">
 
                     </div>
                 </div>
@@ -161,7 +224,7 @@
         </div>
         <div class="right-container">
             <div class="pro-skills">
-                <span class="head-span color-span underline">Professional skills:</span>
+                <span class="head-span color-span underline about-section">Professional skills:</span>
                 <ul>
                     <li>Interpersonal Communication</li>
                     <li>Strategic Planning</li>
@@ -177,7 +240,7 @@
                 </ul>
             </div>
             <div class="languages pro-skills">
-                <span class="head-span color-span underline">Languages:</span>
+                <span class="head-span color-span underline about-section">Languages:</span>
                 <ul>
                     <li>
                         <div class="language">
@@ -201,8 +264,8 @@
             </div>
         </div>
     </div>
-    <div class="section-projects-container">
-        <span class="head-span underline color-span2">Main Projects</span>
+    <div class="section-projects-container" id="myProjects">
+        <span class="head-span underline color-span2 about-section">Main Projects</span>
         <div class="section-projects">
             <div class="project">
                 <div class="project-left-column">
@@ -211,18 +274,18 @@
                         <img src="./images/p1i2.png" alt="" class="project-image p-i-2" />
                     </div>
                 </div>
-                <a href="https://real-estate-mern-full-stack-ui.vercel.app/home" target="_blank"
-                    class="project-link">Visit
-                    the demo project page. (hosted on two different free servers, and as such, it may experience slower
-                    performance during
-                    data fetch operations)</a>
+                <a href="https://realestate-fullstack-hub-ui.onrender.com/" target="_blank" class="project-link">
+                    VISIT DEMO PROJECT'S WEB APP</a>
                 <div class="project-right-column">
-                    <span class="project-name head-span color-span">Real estate</span>
+                    <span class="project-name head-span color-span about-section2">Real estate</span>
                     <span class="project-description">
                         Real estate web application providing a user-friendly interface for property search and
                         filtering.
-                        stack used: MERN stack. and cloud services: AWS S3, and AWS Ec2.
-                        with administration page for data management.
+
+                    </span>
+                    <span class="project-description project-description2">stack used: MERN stack. and cloud services:
+                        AWS S3, and AWS Ec2.
+                        with administration page for data management and CRUD operations.
                     </span>
                     <div class="project-more-details">
                         <button class="details-btn" data-details-id="p1-more-details">Read More Details</button>
@@ -243,9 +306,6 @@
                         Admins can securely add new team members (admins) by creating unique usernames and passwords.
                     </span>
                     <button class="details-btn close-btn" id="p1-details-close">Close</button>
-                    <span>This is a demo website hosted on free servers, and as such, it may experience slower
-                        performance
-                        during data fetch operations</span>
                     <a href="https://real-estate-mern-full-stack-ui.vercel.app/home" target="_blank"
                         class="project-link">Visit the demo project page</a>
                 </div>
@@ -257,16 +317,17 @@
                         <img src="./images/p2i2.png" alt="" class="project-image p-i-2" />
                     </div>
                 </div>
-                <a href="https://petratransport.us/" target="_blank" class="project-link">visit Petra transport
-                    website</a>
+                <a href="https://petratransport.us/" target="_blank" class="project-link">VISIT PETRA TRANSPORT
+                    WEBSITE</a>
                 <div class="project-right-column">
-                    <span class="project-name head-span color-span">Petra transport</span>
+                    <span class="project-name head-span color-span about-section2">Petra transport</span>
                     <span class="project-description">
-                        Remote work with USA based company. Enhanced the front-end and back-end, solving issues with
-                        their
-                        hosting provider.
-                        Integrated PHP Mailer for email functionality, ensuring compatibility with the hosting
-                        infrastructure.
+                        Remote/contract Petra transport USA. Enhanced the functionalities, implementing mailing
+                        System.
+                    </span>
+                    <span class="project-description project-description2">
+                        Integrated PHP Mailer for email functionality, communicating with host provider support to solve
+                        issues and ensuring compatibility.
                     </span>
                     <div class="project-more-details">
                         <button class="details-btn" data-details-id="p2-more-details">Read More Details</button>
@@ -280,8 +341,8 @@
                         are
                         automatically converted into PDF files and downloaded on their devices.
                         The applications are then sent directly to the recruiting team via email, using PHP mailer which
-                        is
-                        compatible with their hosting plan.
+                        is compatible with the customer hosting plan. plus ensuring and solved security and Auth issues
+                        related with SMTP.
                     </span>
                     <button class="details-btn close-btn" id="p1-details-close">Close</button>
                     <a href="https://petratransport.us/" target="_blank" class="project-link">Petra transport
@@ -298,7 +359,7 @@
                 <a href="https://face-generator.onrender.com/" target="_blank" class="project-link">visit Face detector
                     web app</a>
                 <div class="project-right-column">
-                    <span class="project-name head-span color-span">Face detector</span>
+                    <span class="project-name head-span color-span about-section2">Face detector</span>
                     <span class="project-description">
                         Developed a user-friendly face detection web app featuring a straightforward registration and
                         sign-in process. Users can input an image link, and the application utilizes the Clarifai API to
@@ -317,8 +378,8 @@
                         aligning with the latest documentation to enhance the face detection capabilities.
                     </span>
                     <button class="details-btn close-btn" id="p1-details-close">Close</button>
-                    <a href="https://face-generator.onrender.com/" target="_blank" class="project-link">visit Face
-                        detector web app</a>
+                    <a href="https://face-generator.onrender.com/" target="_blank" class="project-link">VISIT FACE
+                        DETECTOR WEB APP</a>
                 </div>
             </div>
             <div class="project">
@@ -330,7 +391,7 @@
                 </div>
                 <a href="" target="_blank" class="project-link">Private Repository - Details available upon request.</a>
                 <div class="project-right-column">
-                    <span class="project-name head-span color-span">Freelance platform</span>
+                    <span class="project-name head-span color-span about-section2">Freelance platform</span>
                     <span class="project-description">
                         Contributed to redevelopment of a MERN stack freelance marketplace web app, undertaking a
                         comprehensive overhaul front-end and back-end functionalities. Enhanced existing features to
@@ -355,37 +416,71 @@
                         request.</a>
                 </div>
             </div>
+            <div class="project">
+                <div class="project-left-column">
+                    <div class="project-image-box">
+                        <img src="./images/p5i1.png" alt="" class="project-image p-i-1" />
+                        <img src="./images/p5i2.png" alt="" class="project-image p-i-2" />
+                        <img src="./images/p5i3.png" alt="" class="project-image p-i-2" />
+                    </div>
+                </div>
+                <a href="" target="_blank" class="project-link">GitHub link upon request.</a>
+                <div class="project-right-column">
+                    <span class="project-name head-span color-span about-section2">Simple PHP system</span>
+                    <span class="project-description">
+                        Simple PHP management system web app, no frameworks used. for adding/ delete data and arrange
+                        data tree depends on parent level. SQL for relations between content and gategories.</span>
+                    <div class="project-more-details">
+                        <button class="details-btn" data-details-id="p5-more-details">Read More Details</button>
+                    </div>
+                </div>
+                <div class="more-details-box" id="p5-more-details">
+                    <span class="details-text">
+                        Managenebt Dashboard built using HTML, CSS, JavaScript, PHP, and SQL. using twig template with
+                        php, and MVC pattern.
+                    </span>
+                    <button class="details-btn close-btn" id="p1-details-close">Close</button>
+                    <a href="" target="_blank" class="project-link">GitHub link upon request.</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="section-js-games">
-        <span class="head-span underline color-span">Interactive JavaScript Simple games for fun</span>
-        <span class="text-span">This section is regularly updated with new games</span>
+        <span class="head-span underline color-span about-section">Games for fun</span>
+
+        <span class="about-section3">JavaScript Interactive games for kids</span>
         <div class="games">
             <div class="game">
-                <span class="text-span">Memory game</span>
+                <div class="game-info">
+                    <span class="text-span">Memory game</span>
+                    <a href="https://mod-ramahi.github.io/JS-Memory-game/" target="_blank" class="game-link">try it and
+                        have
+                        some fun &#128516</a>
+                </div>
                 <img src="./images/JsGame1.png" alt="" class="game-img" />
-                <a href="https://mod-ramahi.github.io/JS-Memory-game/" target="_blank" class="game-link">try it and have
-                    some fun &#128516</a>
             </div>
             <div class="game">
-                <span class="text-span">Whac a mole game</span>
+                <div class="game-info">
+                    <span class="text-span">Whac a mole game</span>
+                    <a href="https://mod-ramahi.github.io/Js-whac-amole-game/" target="_blank" class="game-link">try it
+                        and
+                        have some fun &#128516</a>
+                </div>
                 <img src="./images/JsGame2.png" alt="" class="game-img" />
-                <a href="https://mod-ramahi.github.io/Js-whac-amole-game/" target="_blank" class="game-link">try it and
-                    have some fun &#128516</a>
+
             </div>
         </div>
     </div>
-    <div class="section-experience">
-        <span class="head-span underline">Main Work Experience</span>
-        <div class="experience">
+    <div class="section-experience" id="myExp">
+        <span class="head-span underline about-section">Main Work Experience</span>
+        <!-- <div class="experience"> -->
             <div class="exp">
-                <span class="exp-title color-span underline">
+                <span class="about-section4 color-span underline">
                     Freelance / Contracts Full stack web developer. 2022 - current
                 </span>
                 <ul class="ul-list">
                     <li class="li-list"> Planning and executing several projects upon requirements through direct
-                        communication
-                        with clients.
+                        communication with clients.
                     </li>
                     <li class="li-list">
                         Crafting implacable clean code for front-end and back-end.
@@ -426,7 +521,7 @@
                 </ul>
             </div>
             <div class="exp">
-                <span class="exp-title color-span underline">
+                <span class="about-section4 color-span underline">
                     IT support specialist at Set point. 2021 - 2022
                 </span>
                 <ul class="ul-list">
@@ -439,7 +534,7 @@
                 </ul>
             </div>
             <div class="exp">
-                <span class="exp-title color-span underline">
+                <span class="about-section4 color-span underline">
                     IT Administrator at Affori Internet Cafe 2018 - 2019
                 </span>
                 <ul class="ul-list">
@@ -458,16 +553,16 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
     <div class="section-education section-about-me">
-        <span class="head-span underline color-span">
+        <span class="head-span underline about-section ">
             Education
         </span>
-        <span class="text-span">Bachelor's Degree in Software Engineering</span>
-        <span class="text-span">Al-Zaytoonah University | 2017</span>
+        <span class="text-span white-span">Bachelor's Degree in Software Engineering</span>
+        <span class="text-span white-span">Al-Zaytoonah University | 2017</span>
     </div>
-    <div class="section-contact">
+    <div class="section-contact" id="myContact">
         <span class="head-span underline">Contact Me:</span>
         <span class="text-span">Email: <a type="email" href="mod1.rama7i@gmail.com">mod1.rama7i@gmail.com</a></span>
         <span class="text-span">Mobile | WhatsApp: +962796332378</span>
